@@ -46,28 +46,36 @@ That's easier to compare my plots with original plots:
 ### Plot 1
 
 Original:
+
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 My:
+
 ![my plot 1](my plots/plot1.png) 
 
 
 ### Plot 2
 
 Original:
+
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 My:
+
 ![my plot 2](my plots/plot2.png) 
 
 ### Plot 3
 
 Original:
+
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 My:
+
 ![my plot 3](my plots/plot3.png) 
 
 ### Plot 4
 
 Original:
+
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 My:
+
 ![my plot 4](my plots/plot4.png) 
