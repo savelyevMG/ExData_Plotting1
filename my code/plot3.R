@@ -2,6 +2,9 @@ setwd("D:\\#coursera\\Data Science\\Exploratory Data Analysis\\Course Projects\\
 
 filename <- "household_power_consumption.txt"
 
+#I don't want to get weekdays in my native language, so set locale to Englisg
+Sys.setlocale("LC_TIME","English")
+
 
 #first row 66638
 #last row 69517
