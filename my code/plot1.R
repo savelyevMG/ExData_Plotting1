@@ -1,6 +1,6 @@
-filename <- "data\\household_power_consumption.txt"
+setwd("D:\\#coursera\\Data Science\\Exploratory Data Analysis\\Course Projects\\CP1\\ExData_Plotting1")
 
-setwd("D:\\#coursera\\Data Science\\Exploratory Data Analysis\\Course Projects\\CP1")
+filename <- "household_power_consumption.txt"
 
 #first row 66638
 #last row 69517
@@ -11,9 +11,9 @@ names(dt)=c("Date","Time","Global_active_power","Global_reactive_power","Voltage
 
 dt$datetime <- strptime(paste(dt$Date,dt$Time), "%d/%m/%Y %H:%M:%S")
 
+png(filename="my plots\\plot1.png")
 
+par (mfrow = c(1,1))
 hist(dt$Global_active_power,xlab="Global Active Power (kilowatts)", col="red", main ="Global Active Power")
-
-dev.copy(png,"plot1.png")
 
 dev.off()
