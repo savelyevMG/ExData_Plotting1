@@ -1,8 +1,10 @@
 ## For coursera evaluators:
 
+<ol>
 <li> R code is situated at folder /my code  </li><br>
 <li> Plots are situated at folder /my plots </li><br>
 <li> You can compare my plots and original plots at last section of this readme.MD </li><br>
+</ol>
 
 ## Description
 
