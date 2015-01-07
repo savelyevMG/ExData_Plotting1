@@ -11,7 +11,7 @@ names(dt)=c("Date","Time","Global_active_power","Global_reactive_power","Voltage
 
 dt$datetime <- strptime(paste(dt$Date,dt$Time), "%d/%m/%Y %H:%M:%S")
 
-dev.copy(png,"my plots\\plot2.png")
+png(filename="my plots\\plot2.png",type="cairo")
 
 par (mfrow = c(1,1))
 plot(dt$datetime,dt$Global_active_power, pch=".", xlab="", ylab="Global Active Power (kilowatts)")

@@ -12,7 +12,7 @@ names(dt)=c("Date","Time","Global_active_power","Global_reactive_power","Voltage
 
 dt$datetime <- strptime(paste(dt$Date,dt$Time), "%d/%m/%Y %H:%M:%S")
 
-png(filename="my plots\\plot3.png")
+png(filename="my plots\\plot3.png",type="cairo")
 
 par (mfrow = c(1,1))
 plot(dt$datetime,dt$Sub_metering_1, type="n", pch=".", xlab="", ylab="Energy sub metering")
