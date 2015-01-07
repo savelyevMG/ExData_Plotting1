@@ -1,10 +1,10 @@
 ## For coursera evaluators:
 
-<li> R code is situated at folder /code
-<li> Plots are situated at folder /pics
-<li> You can compare my plots and original plots at last section of this readme.MD
+<li> R code is situated at folder /my code  </li>
+<li> Plots are situated at folder /my plots </li>
+<li> You can compare my plots and original plots at last section of this readme.MD </li>
 
-## Introduction
+## Description
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -39,11 +39,11 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-### Compare plots:
+## Compare plots:
 
 That's easier to compare my plots with original plots:
 
-## Plot 1
+### Plot 1
 
 Original:
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
@@ -51,21 +51,21 @@ My:
 ![my plot 1](my plots/plot1.png) 
 
 
-## Plot 2
+### Plot 2
 
 Original:
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 My:
 ![my plot 2](my plots/plot2.png) 
 
-## Plot 3
+### Plot 3
 
 Original:
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 My:
 ![my plot 3](my plots/plot3.png) 
 
-## Plot 4
+### Plot 4
 
 Original:
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
